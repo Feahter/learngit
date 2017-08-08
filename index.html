@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REMETA-DEMO</title>
+    <script type="text/javascript" src="remeta.js"></script>
+</head>
+<style>
+    .content {
+        width: 80%;
+        margin: 5% auto;
+        border: 1px solid #000;
+        padding: 20px;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, .8);
+        color: #fff;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <h2>REMETA 宽度测试</h2>
+                <div class="content">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        var w = window;
+        var d = document;
+        var b = d.body;
+        var s = screen;
+        var t1 = w.innerWidth;
+        var t2 = w.outerWidth;
+        var t3 = b.clientWidth;
+        var t4 = b.offsetWidth;
+        var t5 = b.scrollWidth;
+        var t6 = w.s.width;
+        var t7 = w.s.availWidth;
+        var dpr = w.devicePixelRatio;
+        var oString = "innerWidth:=" + t1 + "<hr>" + "outerWidth:" + t2 + "<hr>" + "clientWidth:" + t3 + "<hr>" + "offsetWidth:" + t4 + "<hr>" + "scrollWidth:" + t5 + "<hr>" + "screen.width:" + t6 + "<hr>" + "screen.availWidth" + t7 + "<hr>" + "dpr:" + dpr;
+        d.querySelector(".content").innerHTML = oString;
+    </script>
+</body>
+
+</html>
