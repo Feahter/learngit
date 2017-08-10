@@ -25,12 +25,7 @@
                 dpr = 1;
             }
         } else {
-            if (w.devicePixelRatio) {
-                dpr = w.devicePixelRatio;
-            } else {
-                dpr = 1;
-            }
-
+            devicePixelRatio ? dpr = devicePixelRatio : dpr = 1;
         }
         d.documentElement.setAttribute('data-dpr', dpr);
     }

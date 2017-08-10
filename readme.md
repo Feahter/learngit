@@ -16,3 +16,10 @@
 
 在头部引入（防止页面重绘）即可。根据自身业务需求在判定范围书写合适的适配尺寸。例如：以414px（iPhone6、iPhone 6s）为例小于等于该尺寸自动缩放为414px尺寸样式。
 
+## 相关
+
+[关于remetajs](https://feahter.github.io/2017/08/07/%E5%85%B3%E4%BA%8Eremetajs/)
+
+[demo](http://www.orz3boom.com/demo/remeta/)
+
+![二维码](http://www.orz3boom.com/demo/remeta/qrcode.png)
